@@ -32,5 +32,13 @@ const textEl = document.querySelector("#input-delName");
 const showBtn = document.querySelector("#showBtn");
 
 showBtn.addEventListener("click", () => {
-  textEl.style.display = "none";
+  if (textEl.style.display == "none") {
+    showBtn.innerText = "Hide data";
+    showBtn.style.backgroundColor = "rgb(196, 191, 191)";
+    textEl.style.display = "block";
+  } else {
+    textEl.style.display = "none";
+    showBtn.style.backgroundColor = "rgb(149, 184, 197)";
+    showBtn.innerText = "Show data";
+  }
 });

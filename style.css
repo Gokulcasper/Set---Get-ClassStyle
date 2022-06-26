@@ -156,9 +156,14 @@ main > div > p {
   margin-top: 1px;
   padding: 5px 10px;
   border-radius: 5px;
-  width: 80%;
+  width: 50%;
+  margin-right: 30px;
   background-color: rgb(204, 204, 204);
   box-shadow: 4px 4px 4px rgb(130, 119, 119);
   outline: none;
   text-transform: uppercase;
+}
+#submitId {
+  padding: 2px 3px;
+  border-radius: 5px;
 }
