@@ -28,6 +28,7 @@ const nameEl = document.querySelector("#input-delName input");
 // setTimeout(() => {
 //   console.log(nameEl.classList.toggle("classToggle"));
 // }, 20000);
+
 const textEl = document.querySelector("#input-delName");
 const showBtn = document.querySelector("#showBtn");
 
